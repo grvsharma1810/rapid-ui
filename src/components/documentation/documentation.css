@@ -1,0 +1,54 @@
+/* Docs Div CSS */
+#docsDiv {
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+}
+
+#docsDiv.grid {
+    grid-template-columns: 20% 80%;
+}
+
+@media only screen and (max-width : 768px) {
+    #docsDiv.grid {
+        grid-template-columns: 100%;
+    }
+
+    #docsNavSection {
+        display: none;
+    }
+}
+
+
+/* Docs Nav Section CSS */
+#docsNavSection {
+    padding-right: 1rem;
+    overflow: auto;
+    /* Total Height - (padding + navbar) */
+    height: calc(100vh - 112px);
+    position: sticky;
+    top: 80px;
+}
+
+#docsNavSection>.list-group {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width : 768px) {
+    #docsNavSection {
+        display: none;
+    }
+}
+
+
+/* Docs Content Section CSS */
+#docsContentSection {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media only screen and (max-width : 768px) {
+    #docsContentSection {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
