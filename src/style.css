@@ -614,15 +614,20 @@
     font-size: 1rem;
     font-weight: 600;
     outline: none;
-    transition: background-color 0.25s ease-out;
 }
+
+.btn-solid:disabled {
+    cursor: default;
+    opacity: 0.8;
+}
+
 
 .btn-solid.primary {
     background-color: var(--primary);
     color: var(--text-secondary)
 }
 
-.btn-solid.primary:hover {
+.btn-solid.primary:hover:enabled {
     background-color: var(--primary-dark);
     color: var(--text-secondary)
 }
@@ -632,7 +637,7 @@
     color: var(--text-primary);
 }
 
-.btn-solid.secondary:hover {
+.btn-solid.secondary:hover:enabled {
     background-color: var(--grey-300);
     color: var(--text-primary);
 }
@@ -648,14 +653,13 @@
     font-size: 1rem;
     outline: none;
     font-weight: 600;
-    transition: background-color 0.25s ease-out;
 }
 
 .btn-ghost.primary {
     color: var(--primary);
 }
 
-.btn-ghost.primary:hover {
+.btn-ghost.primary:hover:enabled {
     background-color: var(--primary-100);
 }
 
@@ -670,14 +674,13 @@
     border: 0px;
     outline: none;
     font-weight: 600;
-    transition: background-color 0.25s ease-out;
 }
 
 .btn-link {
     color: var(--primary);
 }
 
-.btn-link:hover {
+.btn-link:hover:enabled {
     text-decoration: underline;
 }
 
@@ -725,9 +728,11 @@
     position: relative;
     border: 0px;
     border-radius: 0.25rem;
-    /* text-align: center; */
     max-width: 300px;
     overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .card.card-shadow {
@@ -767,21 +772,15 @@
 }
 
 .card-body {
+    flex-grow: 1;
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 0.75rem;
     background: white;
     color: black;
-}
-
-.card-title {
-    margin-bottom: 0.75rem;
-}
-
-.card-text {
-    margin-bottom: 0.75rem;
 }
 
 .card>.card-badge {
@@ -796,14 +795,23 @@
 
 
 .card-img-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1.25rem;
+    position: relative;
+    width: 100%;
 }
 
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
 
 
 /* Image */
@@ -1223,8 +1231,16 @@ textarea:focus::-webkit-input-placeholder {
     gap: 1rem;
 }
 
+.flex-gap-2 {
+    gap: 2rem;
+}
+
 .flex .align-self-end {
     align-self: flex-end
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
 }
 
 /* Spinner */

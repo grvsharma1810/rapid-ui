@@ -6,7 +6,7 @@ const cardWithImageAndText = `<div class="card">
             <h2 class="card-title">
                 Card Title
             </h2>
-            <div class="card-text">
+            <div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque possimus
             </div>
             <button class="btn-solid primary medium">Button</button>
