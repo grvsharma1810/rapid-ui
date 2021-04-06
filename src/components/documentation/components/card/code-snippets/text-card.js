@@ -1,4 +1,4 @@
-const textCard = `<div class="card">                                        
+const textCard = `<div class="v-card">                                        
     <div class="card-body bg-white">
         <h2 class="card-title">
             Card Title

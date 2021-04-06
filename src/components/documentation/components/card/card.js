@@ -4,6 +4,7 @@ import cardWithImageAndTextCode from './code-snippets/card-with-image-and-text'
 import textCardCode from './code-snippets/text-card'
 import cardWithShadowCode from './code-snippets/card-with-shadow'
 import cardWithTextOverlay from './code-snippets/card-with-text-overlay';
+import horizontalCard from './code-snippets/horizontal-card';
 
 function Card() {
     return (
@@ -13,6 +14,7 @@ function Card() {
             <CodeEditor codeString={textCardCode} heading="Text Card" />
             <CodeEditor codeString={cardWithShadowCode} heading="Card With Shadow" />
             <CodeEditor codeString={cardWithTextOverlay} heading="Card With Text Overlay" />
+            <CodeEditor codeString={horizontalCard} heading="Horizontal Card" />
         </div>
     )
 }

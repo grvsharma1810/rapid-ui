@@ -11,12 +11,12 @@ function Toast(){
             <div className="bg-grey-200 p-2">                            
                 <div className="flex flex-row space-even v-center">
                 <button className="btn-solid bg-success" onClick={() => showToast("toast-success")}>Show Success Toast</button> 
-                <div className="toast" id="toast-success">                
+                <div className="snackbar" id="toast-success">                
                     <div className="bg-success">I am a success toast</div>
                 </div>            
 
                 <button className="btn-solid bg-failure" onClick={() => showToast("toast-failure")}>Show Error Toast</button> 
-                <div className="toast" id="toast-failure">                
+                <div className="snackbar" id="toast-failure">                
                     <div className="bg-failure">I am a error toast</div>
                 </div>      
                 </div>

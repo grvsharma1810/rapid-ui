@@ -1,5 +1,7 @@
-const cardWithShadow = `<div class="card card-shadow">                
-        <img src="http://placehold.it/300" alt="card" class="card-img"/>
+const cardWithShadow = `<div class="v-card card-shadow">
+        <div class="card-img">
+            <img src="http://placehold.it/300" alt="card"/>
+        </div>                        
         <div class="card-badge">Discount 50%</div>
         <div class="btn-dismiss"><span>&times;</span></div>
         <div class="card-body bg-white">
