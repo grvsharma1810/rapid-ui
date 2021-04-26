@@ -17,7 +17,7 @@ function CodeEditor({ codeString, heading }) {
 
     return (
         <div className="code-box">
-            <h3 className="text-heding-medium text-size-2 mb-1 mt-3">{heading} <span className="text-size-1 text-regular">[Editable Example]</span></h3>
+            <h3 className="text-heding-medium text-size-2 mb-1 mt-3">{heading} <span className="text-size-1 text-regular text-failure">[Editable Example]</span></h3>
             <div class="bg-grey-200 p-2">
                 <div className="flex flex-row v-center flex-gap-1" dangerouslySetInnerHTML={{
                     __html: code
