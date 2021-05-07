@@ -1,6 +1,6 @@
 const cardWithTextOverlay = `<div class="v-card"> 
     <div class="card-img">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg" alt="card" class="card-img"/>         
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg" alt="card"/>
         <div class="bg-overlay">
             <p class="text-size-3">OUT OF STOCK</p>
         </div>

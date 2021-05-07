@@ -1,6 +1,6 @@
 const js = `
     <script type="text/javascript" 
-    src="https://gaurav-sharma-component-lib.netlify.app/rapid-ui.js">
+    src="https://cdn.jsdelivr.net/gh/grvsharma1810/component-library@latest/rapid-ui.js">
     </script>
 `
 
