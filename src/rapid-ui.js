@@ -29,16 +29,6 @@ export function closeModal(modalId) {
     }
 }
 
-// document.querySelector('.navbar .toggle').addEventListener('click',function(event) {
-//     const navLinks = document.querySelector('.navbar .nav-links');    
-//     if(navLinks.classList.contains('active')){
-//         navLinks.classList.remove('active');
-//     }
-//     else{
-//         navLinks.classList.add('active');
-//     }
-// })
-
 export function showToast(toastId) {
     const x = document.getElementById(toastId);
     x.classList.add('show')
@@ -53,5 +43,4 @@ export function check(navId) {
     else {
         navLinks.classList.add('active')
     }
-    // event.target.parentElement.parentElement
 }

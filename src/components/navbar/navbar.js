@@ -19,7 +19,7 @@ function Navbar() {
             <li><a className="btn-solid primary" href="/#">Docs</a></li>
           </Link>
           <li><a className="btn-solid primary" href="https://github.com/grvsharma1810/rapid-ui-doc-site" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
-          <li><a className="btn-solid primary" href="https://gaurav-sharma-component-lib.netlify.app/style.css" target="_blank" download="style.css" rel="noreferrer">Download</a></li>
+          <li><a className="btn-solid primary" href="https://cdn.jsdelivr.net/gh/grvsharma1810/component-library@latest/style.css" target="_blank" download="style.css" rel="noreferrer">Download</a></li>
 
 
           <li className="text-heading-bold bg-secondary component-heading">Components</li>
