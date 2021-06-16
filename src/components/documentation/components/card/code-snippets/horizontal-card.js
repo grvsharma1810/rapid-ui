@@ -1,6 +1,6 @@
 const horizontalCard = `<div class="h-card"> 
 <div class="card-img">
-    <img src="https://picsum.photos/300" alt="card"/>
+    <img src="https://picsum.photos/130" alt="card"/>
     <div class="bg-overlay">
         <p class="text-size-3">OUT OF STOCK</p>
     </div>
