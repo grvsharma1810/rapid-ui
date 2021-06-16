@@ -1,6 +1,6 @@
 const cardWithImageAndText = `<div class="v-card">
         <div class="card-img">
-            <img src="http://placehold.it/300" alt="card"/>
+            <img src="https://picsum.photos/300" alt="card"/>
         </div>                                
         <div class="card-badge">Discount 50%</div>
         <div class="btn-dismiss"><span>&times;</span></div>
