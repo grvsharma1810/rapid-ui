@@ -1,0 +1,9 @@
+.code-box {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
